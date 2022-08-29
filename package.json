@@ -9,8 +9,8 @@
   },
   "repository": "/standard-covoiturage",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vuepress dev docs_src",
+    "build": "vuepress build docs_src"
   },
   "license": "MIT",
   "devDependencies": {
