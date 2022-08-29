@@ -4,11 +4,15 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  base: '/hugo_docs_test/',
+  title: 'Standard covoiturage',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
+
+  dest: './docs',
+
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
